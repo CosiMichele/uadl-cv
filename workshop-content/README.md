@@ -43,3 +43,7 @@ CNNs are widely used in computer vision tasks like image classification, object 
 ![CNN](https://miro.medium.com/v2/resize:fit:720/format:webp/1*kkyW7BR5FZJq4_oBTx3OPQ.png)
 
 (image credits: [Mayank Mishra, Towards Data Science](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939). Original image developed by [MathWorks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html))
+
+### Explaining the Layers
+#### The Convolutional Layer
+#### The Pooling Layer
