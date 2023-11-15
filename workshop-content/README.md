@@ -42,7 +42,7 @@ CNNs are widely used in computer vision tasks like image classification, object 
 
 ![CNN](https://miro.medium.com/v2/resize:fit:720/format:webp/1*kkyW7BR5FZJq4_oBTx3OPQ.png)
 
-(image credits: [Mayank Mishra, Towards Data Science](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939). Original image developed by [MathWorks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html))
+(image credits: [Towards Data Science](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939). Original image developed by [MathWorks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html))
 
 ### Explaining the Layers
 #### The Convolutional Layer
@@ -71,4 +71,4 @@ The **Flattening layer** converts the 2D feature maps into a 1D vector. This tra
 
 ![flat](https://miro.medium.com/v2/resize:fit:720/format:webp/1*IWUxuBpqn2VuV-7Ubr01ng.png)
 
-(image credits: *The Most Intuitive and Easiest Guide for Convolutional Neural Network*, [Medium](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480))
+(image credits: *The Most Intuitive and Easiest Guide for Convolutional Neural Network*, [Towards Data Science](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480))
