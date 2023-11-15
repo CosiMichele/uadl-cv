@@ -46,4 +46,29 @@ CNNs are widely used in computer vision tasks like image classification, object 
 
 ### Explaining the Layers
 #### The Convolutional Layer
+
+The convolutional layer is a fundamental component of CNNs designed to efficiently process grid-like data, such as images. It plays a crucial role in extracting meaningful features from input data through the application of convolution operations, which use filters (kernels) to scan across the input creating feature maps from the original image.
+
+![con_layer1](https://i.stack.imgur.com/Bxix6.png)
+
+(image source: [StackOverflow](https://stackoverflow.com/questions/51008505/kernels-and-weights-in-convolutional-neural-networks))
+
+![con_layer2](https://upload.wikimedia.org/wikipedia/commons/1/19/2D_Convolution_Animation.gif)
+
+(image credits: *Convolution*, [Wikipedia](https://en.wikipedia.org/wiki/Convolution))
+
+In the figure above, a 3x3 kernel is applied to the values of the image. This is called a **convolutional operation** and the resulting output is referred as a **feature map**.
+
+An additional layer, Rectified Linear Unit (ReLU) replaces negative pixes with zeroes.
+
 #### The Pooling Layer
+
+The Pooling Layer is often also called the downsampling layer, as it reduces the spatial size of the image. This helps with retaining important features and lowering the complexity of the image. Pooling can help with preventing overfitting by "summarizing a region" and overall computational efficiencty by reducing the computational requirements.
+
+#### Flattening and Fully Connected Layers
+
+The **Flattening layer** converts the 2D feature maps into a 1D vector. This transformation prepares the extracted features for input to the **fully connected layers**, which make global predictions based on the flattened features. Neurons in these layers are connected to all neurons from the previous layer. 
+
+![flat](https://miro.medium.com/v2/resize:fit:720/format:webp/1*IWUxuBpqn2VuV-7Ubr01ng.png)
+
+(image credits: *The Most Intuitive and Easiest Guide for Convolutional Neural Network*, [Medium](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480))
