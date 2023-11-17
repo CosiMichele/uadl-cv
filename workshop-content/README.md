@@ -27,6 +27,8 @@ In the realm of Computer Vision, an array of challenges persists, transcending b
 
 ## A Classical Approach to Computer Vision
 
+One of the most popular libraries of classical CV is [OpenCV](https://opencv.org/). OpenCV works alongside [NumPy](https://numpy.org/), used to quantify the image files and apply changes.
+
 ## Implementing Convolutional Neural Networks (CNN) to CV
 
 CNNs are widely used in computer vision tasks like image classification, object detection, and segmentation. Revisiting CNN:
