@@ -27,7 +27,16 @@ In the realm of Computer Vision, an array of challenges persists, transcending b
 
 ## A Classical Approach to Computer Vision
 
-One of the most popular libraries of classical CV is [OpenCV](https://opencv.org/). OpenCV works alongside [NumPy](https://numpy.org/), used to quantify the image files and apply changes.
+One of the most popular libraries of classical CV is [OpenCV](https://opencv.org/). OpenCV works alongside [NumPy](https://numpy.org/), used to quantify the image files and apply changes. Initially developed by Intel, OpenCV had first been given the [open-source BSD Licence](https://github.com/opencv/opencv/blob/4.4.0/LICENSE) (versions <=4.4.0), then the [Apache Licence](https://github.com/opencv/opencv/blob/master/LICENSE) (versions >=4.5.0) allowing the software to maintain an Open status and be open source.
+
+OpenCV focuses on the manipulation and image processing prior to extracting information. As a library, OpenCv is extensively used today in well established pipelines of object detection, as it helps with preparing and modifying images for more modern methods of CV such as CNN. Among other functions, OpenCV can be used for [image filtering](https://docs.opencv.org/4.x/d4/d86/group__imgproc__filter.html), transformations ([geometric](https://docs.opencv.org/4.x/da/d54/group__imgproc__transform.html), [miscellaneous](https://docs.opencv.org/4.x/d7/d1b/group__imgproc__misc.html)), [motion analysis and object tracking](https://docs.opencv.org/4.x/d7/df3/group__imgproc__motion.html), [image segmentation](https://docs.opencv.org/4.x/d3/d47/group__imgproc__segmentation.html), and [feature](https://docs.opencv.org/4.x/dd/d1a/group__imgproc__feature.html) and [object](https://docs.opencv.org/4.x/df/dfb/group__imgproc__object.html) detection. 
+
+In the example Jupyter Notebook, we use OpenCV to count and detect objects (i.e. apples) in an image. To achieve this, OpenCV is used in such a manner where the edges of an object are detected first and then the object is counted. This process involves the following steps:
+
+1. Convert image to black and white. Since our goal is to count still objects in an image, the conversion to black and white helps with removing not needed features (colors). 
+2. Blurring the image using [Gaussian Blur](https://en.wikipedia.org/wiki/Gaussian_blur): this helps with the reduction of noise in the image ![gaussian](https://docs.opencv.org/4.x/gaussian.jpg)
+3. Finding the edges of the blurred objects using the [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) ![canny](https://docs.opencv.org/4.x/canny1.jpg)
+4. Finding and counting the contours of the objects ![contour](https://docs.opencv.org/4.x/approx.jpg)
 
 ## Implementing Convolutional Neural Networks (CNN) to CV
 
