@@ -34,9 +34,12 @@ OpenCV focuses on the manipulation and image processing prior to extracting info
 In the example Jupyter Notebook, we use OpenCV to count and detect objects (i.e. apples) in an image. To achieve this, OpenCV is used in such a manner where the edges of an object are detected first and then the object is counted. This process involves the following steps:
 
 1. Convert image to black and white. Since our goal is to count still objects in an image, the conversion to black and white helps with removing not needed features (colors). 
-2. Blurring the image using [Gaussian Blur](https://en.wikipedia.org/wiki/Gaussian_blur): this helps with the reduction of noise in the image ![gaussian](https://docs.opencv.org/4.x/gaussian.jpg)
-3. Finding the edges of the blurred objects using the [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) ![canny](https://docs.opencv.org/4.x/canny1.jpg)
-4. Finding and counting the contours of the objects ![contour](https://docs.opencv.org/4.x/approx.jpg)
+2. Blurring the image using [Gaussian Blur](https://en.wikipedia.org/wiki/Gaussian_blur): this helps with the reduction of noise in the image 
+    ![gaussian](https://docs.opencv.org/4.x/gaussian.jpg)
+3. Finding the edges of the blurred objects using the [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) 
+    ![canny](https://docs.opencv.org/4.x/canny1.jpg)
+4. Finding and counting the contours of the objects 
+    ![contour](https://docs.opencv.org/4.x/approx.jpg)
 
 ## Implementing Convolutional Neural Networks (CNN) to CV
 
