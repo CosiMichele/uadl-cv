@@ -1,5 +1,4 @@
-# Computer Vision: Image and Video Analysis
-
+# Computer Vision: Image Analysis
 
 ## Why Computer Vision (CV)?
 
@@ -89,3 +88,22 @@ The **Flattening layer** converts the 2D feature maps into a 1D vector. This tra
 ![flat](https://miro.medium.com/v2/resize:fit:720/format:webp/1*IWUxuBpqn2VuV-7Ubr01ng.png)
 
 (image credits: *The Most Intuitive and Easiest Guide for Convolutional Neural Network*, [Towards Data Science](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480))
+
+---
+
+## Diving Deeper in Computer Vision
+
+- **OpenCV**: 
+    - OpenCV can also be used for video processing, the OpenCV website offers some tutorials in the Other tutorials section:
+        - [How to use Background Subtraction Methods](https://docs.opencv.org/4.x/d3/dd5/tutorial_table_of_content_other.html)
+        - [Meabshift and Camshift](https://docs.opencv.org/4.x/d7/d00/tutorial_meanshift.html)
+        - [Optical Flow](https://docs.opencv.org/4.x/d4/dee/tutorial_optical_flow.html)
+    - [A good step by step how-to on video analysis using OpenCV by Kardi Teknomo](https://people.revoledu.com/kardi/tutorial/Python/Video+Analysis+using+OpenCV-Python.html)
+    - [Video Data Processing with Python and OpenCV](https://www.youtube.com/watch?v=AxIc-vGaHQ0)
+
+- **CNN**:
+    - [What are Convolutional Neural Networks?](https://www.youtube.com/watch?v=QzY57FaENXg) An accessible and simple explananation of CNN
+    - [How convolutional neural networks work, in depth](https://www.youtube.com/watch?v=JB8T_zN7ZC0) A more advanced video explanining CNN
+    - [But what is convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA) Popular science and math YouTuber 3Blue1Brown covering the topic of convolution
+
+[Paperswithcode offers an excellent section on real life applications of CV.](https://paperswithcode.com/methods/area/computer-vision)
